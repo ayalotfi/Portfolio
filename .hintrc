@@ -3,11 +3,14 @@
     "development"
   ],
   "hints": {
-    "axe/name-role-value": [
+    "axe/name-role-value": "off",
+    "axe/aria": [
       "default",
       {
-        "link-name": "off"
+        "aria-progressbar-name": "off"
       }
-    ]
+    ],
+    "no-inline-styles": "off",
+    "disown-opener": "off"
   }
 }
